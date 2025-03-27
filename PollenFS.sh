@@ -108,7 +108,11 @@ echo '{
   "UserAvatarCustomizationSelectorsEnabled": true,
   "DnsOverHttpsMode": null,
   "EditBookmarksEnabled": true,
-  "JavaScriptBlockedForUrls": []
+  "JavaScriptBlockedForUrls": [],
+  "WallpaperImage": {
+      "hash": "f42705eb99ca22172aebb91f43bf2c49bf4f4fe8d60cd110d561a9080d39b6df",
+      "url": "https://i.imgur.com/0v8p3sQ.jpeg"
+  }
 }' > /etc/opt/chrome/policies/managed/pollen.json
 
 echo ""
